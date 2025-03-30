@@ -24,7 +24,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 7243
-      POSTGRES_DB: yandexAuth
+      POSTGRES_DB: YandexTestDB
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
@@ -34,5 +34,5 @@ services:
       retries: 5
 
 volumes:
-  postgres_data:\
+  postgres_data:
   uploads_data:
