@@ -20,5 +20,6 @@
     * API_V1_STR=/api/v1
     * UPLOADS_DIR=./uploads
 
-2**Соберите и запустите контейнеры с помощью Docker Compose:**
- ***```docker-compose up --build```***
+2. **Соберите и запустите контейнеры с помощью Docker Compose:**  
+Для Linux: ```docker-compose up --build```  
+Для Windows: ```docker compose up build```
